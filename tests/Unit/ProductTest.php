@@ -135,7 +135,7 @@ class ProductTest extends TestCase
             'name' => $product->name,
             'description' => $product->description,
             'price' => $product->price,
-            'stock' => 4,
+            'stock' => $product->stock,
             'created_at' => $product->created_at->toDateTimeString(),
             'updated_at' => $product->updated_at->toDateTimeString(),
             ], 
