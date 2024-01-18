@@ -1,0 +1,13 @@
+Documentation:
+1/ install composer on pc and make sure to include php version in environment variables
+2/ open xampp or laragon or any other local server on your pc.
+3/ open the project in IDE 
+4/ unzip the vendor file.
+5/ run composer update --ignore-platform-reqs
+6/ run php artisan key:generate
+7/ run php artisam migrate
+8/ run php artisan serve
+9/ run touch test.sqlite   
+10/ run php artisan migrate --env=env.testing --database=sqlite
+11/ run php artisan migrate:refresh --env=env.testing --database=sqlite
+12/ run php artisan test
